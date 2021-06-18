@@ -29,7 +29,7 @@ client.on('message', async message => {
             const embed = new Discord.MessageEmbed()
                 .setColor('#F1C40F')
                 .setDescription(message.content) 
-                client.channels.cache.get('your confession channel here').send(embed);
+                client.channels.cache.get('855296762567065640').send(embed);
         } 
 }) 
  
